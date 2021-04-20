@@ -31,11 +31,42 @@ body{
 .pulsante-sinistro{
     background-color: #47ADF1;
 }
-.lista{
- font-size: 25px;  
+.lista{  
  padding-left:75px; 
+ list-style: none;
+ margin:10px,0px,0px;
 }
-.lista ordinata{
-    background-color: #red;
+.ordinata{
+    font-size: 25px;
+    font-weight: bold;
+    color:#494D55;
+     display: inline-block;
 }
-
+.non:before{
+    content:"\2713";
+    color: #A3DCD0;
+    border:3px solid #A3DCD0;
+    border-radius: 100%;
+    vertical-align: 0%;
+    width: 20px;
+    text-align: center;
+    margin: 0;
+    display:inline-block;
+}
+ul{
+    margin:0px
+}
+.freccia{
+    vertical-align:-webkit-baseline-middle;
+    text-align: center;
+}
+.forma{
+    border: 5px solid #45ABEA;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 2 px;
+}
+.edit{
+    background-color: #45ABEA;
+}
