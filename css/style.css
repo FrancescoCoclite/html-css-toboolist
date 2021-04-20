@@ -31,3 +31,11 @@ body{
 .pulsante-sinistro{
     background-color: #47ADF1;
 }
+.lista{
+ font-size: 25px;  
+ padding-left:75px; 
+}
+.lista ordinata{
+    background-color: #red;
+}
+
